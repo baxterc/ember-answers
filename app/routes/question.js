@@ -22,7 +22,7 @@ export default Ember.Route.extend({
         });
         Ember.RSVP.all(answers).then(function () {
           return question.destroyRecord();
-        })
+        });
         this.transitionTo('index');
       }
     },
