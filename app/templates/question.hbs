@@ -1,6 +1,4 @@
-<h3>{{model.content}}</h3>
-<h5>by {{model.author}}</h5>
-<p>{{model.notes}}</p>
+{{question-detail question=model}}
 
 {{update-question question=model updateQuestion="updateQuestion"}}
 <button {{action "deleteQuestion" model}}>Delete this Question</button>
