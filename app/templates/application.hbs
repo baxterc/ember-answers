@@ -1,6 +1,13 @@
 <div class="container">
   <header>
-    {{#link-to 'index'}}<h2>Ember Answers</h2>{{/link-to}}
+    {{#link-to 'index'}}<h1>Ember Answers</h1>{{/link-to}}
+    <div id="header-quip">
+      <p>"Where you go when you don't know!"</p>
+      {{#link-to 'index'}}<img src="./assets/images/teaching.png">{{/link-to}}
+    </div>
+
   </header>
-{{outlet}}
+  <div id="outlet">
+    {{outlet}}
+  </div>
 </div>

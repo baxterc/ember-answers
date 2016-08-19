@@ -1,2 +1,7 @@
+{{#if model}}
 {{question-list questions=model}}
+{{else}}
+<p>There are no questions!  Be the first to ask.</p>
+{{/if}}
+
 {{question-ask saveQuestion="saveQuestion"}}

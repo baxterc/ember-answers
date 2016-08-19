@@ -1,0 +1,57 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #1481BA;
+  font-size: 1.6em;
+}
+header {
+  height: 100px;
+  display: flex;
+  background-color: #BBCDE5;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+textarea {
+    width: 50%;
+    height: 120px;
+}
+.container {
+  margin-bottom: auto;
+  background-color: #FFFFFF;
+  padding-left: 0;
+  padding-right: 0;
+}
+.glyphicon {
+  font-size: 1.5em;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+#header-quip img {
+  display: inline-flex;
+  padding-left: 12px;
+  margin-left: auto;
+  height: 100px;
+  width: auto;
+}
+#header-quip {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 18pt;
+}
+#outlet {
+  padding: 24px;
+}
+#outlet button {
+  margin: 24px;
+  padding: 12px;
+}
+#outlet a {
+  font-size: 18px;
+  color: #11B5E4
+  text-decoration: underline;
+}
