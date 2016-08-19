@@ -1,0 +1,17 @@
+{{#if addAnswerForm}}
+  <h4>Add your answer below</h4>
+  <form>
+    <div class="form-group">
+      <label for="answer-author">Your Name</label>
+      {{input value=answer-author id="answer-author"}}
+    </div>
+
+    <div class="form-group">
+      <label for="answer-content">Your Answer</label>
+      {{textarea value=answer-content id="answer-content"}}
+    </div>
+  </form>
+  <button {{action addAnswer}}>Submit your Answer!</button>
+{{else}}
+  <button {{action 'showAnswerForm'}}>Answer this Question</button>
+{{/if}}
