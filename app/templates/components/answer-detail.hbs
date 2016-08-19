@@ -1,2 +1,4 @@
 <li><p>{{answer.author}} says: {{answer.content}}</p>
-Answer score: {{answer.score}} <span class="glyphicon glyphicon-thumbs-up" {{action "upvote" answer}}></span> <span class="glyphicon glyphicon-thumbs-down" {{action "downvote" answer}}></span></li>
+Answer score: {{answer.score}} <span class="glyphicon glyphicon-thumbs-up" {{action "upvote" answer}}></span> <span class="glyphicon glyphicon-thumbs-down" {{action "downvote" answer}}></span> <button {{action 'deleteAnswer' answer}}>Delete this Answer</button>
+
+</li>

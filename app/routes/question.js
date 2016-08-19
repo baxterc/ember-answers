@@ -26,6 +26,11 @@ export default Ember.Route.extend({
         this.transitionTo('index');
       }
     },
+    deleteAnswer(answer) {
+      if(confirm("Are you sure you want to delete this answer?")) {
+        return answer.destroyRecord();
+      }
+    },
     addAnswer(params) {
       var question = params.question;
       var newAnswer = this.store.createRecord('answer', params);

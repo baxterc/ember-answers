@@ -1,7 +1,11 @@
-# Ember-answers
+# EmberAnswers
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### Where you go when you don't know! A project for Epicodus, 8/19/2016
+
+#### By Charlie Baxter
+
+## Description
+This app is a question-and-answer forum using Ember, similar to services like Yahoo Answers or Ask.fm.  Users can submit questions, which can then be answered.  Answers can be upvoted and downvoted with the score displayed alongside the answer.  Questions have a one-to-many relation with answers using a Firebase datastore; if a question is deleted, its answers are correctly deleted.
 
 ## Prerequisites
 
@@ -50,4 +54,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
