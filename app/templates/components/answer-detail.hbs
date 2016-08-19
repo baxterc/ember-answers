@@ -1,1 +1,2 @@
-<li>{{answer.author}} says: {{answer.content}}.</li>
+<li><p>{{answer.author}} says: {{answer.content}}</p>
+Answer score: {{answer.score}} <span class="glyphicon glyphicon-thumbs-up" {{action "upvote" answer}}></span> <span class="glyphicon glyphicon-thumbs-down" {{action "downvote" answer}}></span></li>
