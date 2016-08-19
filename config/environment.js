@@ -13,6 +13,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyA4Oe8w0Urs2INYiEEz6u4NwX1jkF9K928",
+      authDomain: "ember-answers-ae84d.firebaseapp.com",
+      databaseURL: "https://ember-answers-ae84d.firebaseio.com",
+      storageBucket: "ember-answers-ae84d.appspot.com",
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
